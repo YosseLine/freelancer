@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Freelancer</title>
-    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:700" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
@@ -11,191 +11,139 @@
     <!--Header section-->
     <header class="montserrat">
       <nav class="box-header">
-      <a href="#" class="title-header">START BOOTSTRAP</a>
-
-        <ul class="list-main">
-          <li><a href="#">PORTFOLIO</a></li>
-          <li><a href="#">ABOUT</a></li>
-          <li><a href="#">CONTACT</a></li>
-        </ul>
+        <div>
+          <a href="#" class="title-header">START BOOTSTRAP</a>
+        </div>
+        <div class="container-list-main">
+          <ul class="list-main">
+            <li><a href="#">PORTFOLIO</a></li>
+            <li><a href="#">ABOUT</a></li>
+            <li><a href="#">CONTACT</a></li>
+          </ul>
+        </div>
       </nav>
       </header>
       <!--Main part section-->
       <section id="main-part" class="montserrat">
         <div class="container">
-        <figure>
+        <figure class="text-align image">
           <img src="assets/images/profile.png" alt="Start Bootstrap">
         </figure>
-        <div class="intro-text">
+        <div class="text-align title-main-part">
           <span class="name">START BOOTSTRAP</span>
-          <hr class="star-light">
-          <span class="specialties">Web Developer - Graphic Artist - User Experience Designer</span>
+          <span id="start"><i class="fa fa-star" aria-hidden="true"></i></span>
+          <span class="specialties lato">Web Developer - Graphic Artist - User Experience Designer</span>
         </div>
         </div>
       </section>
 
    <!--Portfolio section-->
       <section id="portfolio">
-        <div class="container">
-          <h2 class="text-center">PORTFOLIO</h2>
-          <hr class="star-black">
-
-          <div class="rows">
-            <div class="portfolio-item">
-              <figure>
-                <a href="#">
+        <div class="container text-align">
+          <h2 class="montserrat ">PORTFOLIO</h2>
+          <span id="start2"><i class="fa fa-star " aria-hidden="true"></i></span>
+          <div id="rows">
+              <figure class="row1">
                 <img src="assets/images/portfolio/cabin.png" alt="Cabin">
-              </a>
               </figure>
-            </div>
-
-            <div class="portfolio-item">
-              <figure>
-                <a href="#">
+              <figure class="row1">
                 <img src="assets/images/portfolio/cake.png" alt="Cake">
-              </a>
               </figure>
-            </div>
-
-            <div class="portfolio-item">
-              <figure>
-                <a href="#">
+              <figure class="row1">
                 <img src="assets/images/portfolio/circus.png" alt="Circus">
-              </a>
               </figure>
-            </div>
-
-            <div class="portfolio-item">
-              <figure>
+              <figure class="row2">
                 <a href="#">
                 <img src="assets/images/portfolio/game.png" alt="Game">
-              </a>
               </figure>
-            </div>
-
-            <div class="portfolio-item">
-              <figure>
-                <a href="#">
+              <figure class="row2">
                 <img src="assets/images/portfolio/safe.png" alt="Safe">
-              </a>
               </figure>
-            </div>
-
-            <div class="portfolio-item">
-              <figure>
-                <a href="#">
+              <figure class="row2">
                 <img src="assets/images/portfolio/submarine.png" alt="Submarine">
-              </a>
               </figure>
-            </div>
           </div>
         </div>
       </section>
 
       <!--About section-->
       <section id="about">
-        <div class="container">
-          <h2 class="text-center">ABOUT</h2>
-          <hr class="star-light">
-          <div class="rows">
-            <div class="column-1">
+        <h2 class="montserrat">ABOUT</h2>
+        <span id="start"><i class="fa fa-star fa-2x" aria-hidden="true"></i></span>
+        <div class="paragraph">
+            <div class="lato paragraph-one">
               <p>Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional LESS stylesheets for easy customization.</p>
             </div>
-            <div class="column-2">
+            <div class="lato paragraph-two">
               <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to share your projects, this template is the perfect starting point!</p>
             </div>
-            <div class="button">
-              <a href="#">
-                <i class="fa fa-download" aria-hidden="true">Download Theme</i>
-              </a>
-            </div>
-          </div>
+              <a href="#" class="button lato"><i class="fa fa-download" aria-hidden="true"></i>Download Theme</a>
         </div>
       </section>
 
       <!--Contact Section-->
-      <section class="contact">
+      <section id="contact">
+        <h2 class="montserrat">CONTACT ME</h2>
+        <span id="start2"><i class="fa fa-star " aria-hidden="true"></i></span>
         <div class="container">
-          <h2 class="text-center">Contact Me</h2>
-          <hr class="star-black">
-          <div class="rows">
-            <div class="column-contact">
-
               <form class="contact-form" action="index.html" method="post">
-
-                <div class="name">
-                  <label>Name</label>
+                <div>
                   <input type="text" placeholder="Name">
                   <p class="block-text"></p>
                 </div>
-
-                <div class="email">
-                  <label>Email Address</label>
+                <hr>
+                <div>
                   <input type="text" placeholder="Email Address">
                   <p class="block-text"></p>
                 </div>
-
-                <div class="phone">
-                  <label>Phone Number</label>
+                <hr>
+                <div>
                   <input type="text" placeholder="Phone Number">
                   <p class="block-text"></p>
                 </div>
-
-                <div class="message">
-                  <label>Meesage</label>
+                <hr>
+                <div>
                   <input type="text" placeholder="Message">
-                  <p class="block-text"></p>
+                  <p class="block-text height-message"></p>
                 </div>
-                <div class="send">
+                <hr>
+                <div>
                   <button type="submit" class="send-button">Send</button>
                 </div>
               </form>
             </div>
-          </div>
         </div>
       </section>
 
       <!--Footer-->
-      <footer class="text-center">
+      <footer id="footer-content">
         <div class="footer-above">
-          <div class="rows">
-            <div class="footer-column">
-              <h3>LOCATION</h3>
-              <p>3481 Melrose Place <br> Beverly Hills, CA 90210</p>
+            <div class="location row">
+              <h1 class="montserrat footer-tittle">LOCATION</h1>
+              <p class="row2 lato">3481 Melrose Place <br> Beverly Hills, CA 90210</p>
             </div>
-            <div class="footer-column">
-              <h3>AROUND THE WEB</h3>
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">
-                  <i class="fa fa-facebook" aria-hidden="true"></i>
-                </a></li>
-                <li class="list-inline-item"><a href="#">
-                  <i class="fa fa-google-plus"></i>
-                </a></li>
-                <li class="list-inline-item"><a href="#">
-                  <i class="fa fa-twitter"></i>
-                </a></li>
-                <li class="list-inline-item"><a href="#">
-                  <i class="fa fa-linkedin"></i>
-                </a></li>
-                <li class="list-inline-item"><a href="#">
-                  <i class="fa fa-dribbble"></i>
-                </a></li>
-              </ul>
-            </div>
-            <div class="footer-column">
-              <h3>ABOUT FREELANCER</h3>
-              <p>Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com">Start Bootstrap</a>.</p>
+            <div class="around row">
+              <h1 class="montserrat footer-tittle">AROUND THE WEB</h1>
+              <div class="icons">
+                <ul>
+                <li>
+                 <a class="circles" href="#"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
+                 <a class="circles" href="#"><i class="fa fa-google-plus fa-2x" aria-hidden="true"></i></a>
+                 <a class="circles" href="#"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
+                 <a class="circles" href="#"><i class="fa fa-linkedin fa-2x" aria-hidden="true"></i></a>
+                 <a class="circles" href="#"><i class="fa fa-dribbble fa-2x" aria-hidden="true"></i></a>
+               </li>
+             </ul>
             </div>
           </div>
+            <div class="about-freelancer row">
+              <h1 class="montserrat footer-tittle">ABOUT FREELANCER</h1>
+              <p class="row2 lato">Freelance is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com" class="link-start">Start Bootstrap</a>.</p>
+            </div>
         </div>
         <div class="footer-down">
-          <div class="container">
-            <div class="rows">
-              <p>Copyright © Your Website 2017</p>
+              <p class="lato">Copyright © Your Website 2017</p>
             </div>
-          </div>
-        </div>
       </footer>
   </body>
 </html>
